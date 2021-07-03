@@ -1,4 +1,4 @@
-<p align="center"><img alt="PayFlow" src="https://imgur.com/a/IAjiAGK.png" width="200" /></p>
+<p align="center"><img alt="PayFlow" src="https://imgur.com/z7NEDzX.png" width="200" /></p>
 
 <p align="center">
 
