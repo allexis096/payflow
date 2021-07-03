@@ -18,37 +18,39 @@ class _ExtractPageState extends State<ExtractPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Padding(
-          padding: const EdgeInsets.only(top: 24, left: 24, right: 24),
-          child: Row(
-            children: [
-              Text(
-                'Meus extratos',
-                style: TextStyles.titleBoldHeading,
-              ),
-            ],
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.only(top: 24, left: 24, right: 24),
+            child: Row(
+              children: [
+                Text(
+                  'Meus extratos',
+                  style: TextStyles.titleBoldHeading,
+                ),
+              ],
+            ),
           ),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(
-            vertical: 24,
-            horizontal: 24,
+          Padding(
+            padding: const EdgeInsets.symmetric(
+              vertical: 24,
+              horizontal: 24,
+            ),
+            child: Divider(
+              color: AppColors.stroke,
+              height: 1,
+              thickness: 1,
+            ),
           ),
-          child: Divider(
-            color: AppColors.stroke,
-            height: 1,
-            thickness: 1,
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 24),
+            child: BoletoListWidget(
+              controller: controller,
+            ),
           ),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 24),
-          child: BoletoListWidget(
-            controller: controller,
-          ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }

@@ -13,7 +13,12 @@ class AuthController {
       _user = user;
       saveUser(user);
 
-      Navigator.pushNamedAndRemoveUntil(context, '/home', (route) => false);
+      Navigator.pushNamedAndRemoveUntil(
+        context,
+        '/home',
+        (route) => false,
+        arguments: user,
+      );
     } else {
       Navigator.pushReplacementNamed(context, '/login');
     }
