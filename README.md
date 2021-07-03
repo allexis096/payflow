@@ -14,11 +14,11 @@
 <p align="center">
 
 <a href="https://flutter.dev/">
-  <img alt="Flutter" src="https://img.shields.io/static/v1?color=blue&label=Flutter&message= &?style=plastic&logo=Flutter">
+  <img alt="Flutter" src="https://img.shields.io/static/v1?color=blue&label=Flutter&message=DEV&?style=plastic&logo=Flutter">
 </a>
 
 <a href="https://dart.dev/">
-  <img alt="Dart" src="https://img.shields.io/static/v1?color=blue&label=Dart&message= &?style=plastic&logo=Dart">
+  <img alt="Dart" src="https://img.shields.io/static/v1?color=blue&label=Dart&message=DEV&?style=plastic&logo=Dart">
 </a>
 
 </p>
